@@ -10,3 +10,52 @@ body{
     font-family: "Monocraft Nerd Font";
     color:#c9d1d9;
 }
+
+button{
+    transition-duration:0.2s;
+    margin-top:20px;
+    font-family: "Monocraft Nerd Font";
+    font-size: large;
+    text-align: center;
+    background: #21262d;
+    color:#c7cfd7;
+    border-color: #363b42;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+
+}
+
+button:hover{
+    transition-duration:0.2s;
+    margin-top:20px;
+    font-family: "Monocraft Nerd Font";
+    font-size: large;
+    text-align: center;
+    background: #30363d;
+    color:#c4d1d9;
+    border-color: #8b949e;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+button:active{
+    transition-duration:0.2s;
+    margin-top:20px;
+    font-family: "Monocraft Nerd Font";
+    font-size: large;
+    text-align: center;
+    background: #282e33;
+    color:#c9d1d9;
+    border-color: #6e7681;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
