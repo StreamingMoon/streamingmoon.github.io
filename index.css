@@ -1,0 +1,12 @@
+#Avatar{
+    margin-top: 30px;
+    border-radius: 50%;
+    width : 200px;
+    height: 200px;
+    /* text-align: center; */
+}
+
+body{
+    font-family: "Monocraft Nerd Font";
+    color:#c9d1d9;
+}
