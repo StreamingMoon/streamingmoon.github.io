@@ -5,9 +5,8 @@ function MyPage()
 
 function Doing()
 {
-    location.assign("https://github.com/StreamingMoon/ForceSystem_byStreamingMoon")
+    location.assign("https://github.com/StreamingMoon/GameOfLife")
 }
-
 
 function Detail()
 {
