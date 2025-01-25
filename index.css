@@ -4,10 +4,9 @@
 }
 
 #Avatar{
-    margin-top: 30px;
     border-radius: 50%;
-    width : 200px;
-    height: 200px;
+    width : 300px;
+    height: 300px;
     /* text-align: center; */
 }
 
@@ -28,7 +27,7 @@ button{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    width: 200px;
+    width: 300px;
     height: 50px;
 
 }
@@ -45,7 +44,7 @@ button:hover{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    width: 200px;
+    width: 300px;
     height: 50px;
 }
 
@@ -61,6 +60,56 @@ button:active{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    width: 200px;
+    width: 300px;
+    height: 50px;
+}
+
+
+input{
+    transition-duration:0.2s;
+    margin-top:20px;
+    font-family: "Monocraft Nerd Font";
+    font-size: large;
+    text-align: center;
+    background: #10151c;
+    color:#c7cfd7;
+    border-color: #252a31;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 30px;
+
+}
+
+input:hover{
+    transition-duration:0.2s;
+    margin-top:20px;
+    font-family: "Monocraft Nerd Font";
+    font-size: large;
+    text-align: center;
+    background: #20252c;
+    color:#c4d1d9;
+    border-color: #7a838d;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+input:active{
+    transition-duration:0.2s;
+    margin-top:20px;
+    font-family: "Monocraft Nerd Font";
+    font-size: large;
+    text-align: center;
+    background: #171d22;
+    color:#c9d1d9;
+    border-color: #5d6570;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
     height: 50px;
 }
