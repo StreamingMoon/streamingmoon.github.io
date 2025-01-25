@@ -1,19 +1,18 @@
 
 #Avatar{
-    border-radius: 50%;
-    width : 300px;
-    height: 300px;
+    border-radius: 100%;
+    width : 250px;
+    height: 250px;
     /* text-align: center; */
 }
 
 body{
-
     color:#c9d1d9;
 }
 
 button{
     transition-duration:0.2s;
-    margin-top:20px;
+    margin-top:10px;
 
     font-size: large;
     text-align: center;
@@ -23,8 +22,8 @@ button{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    width: 300px;
-    height: 50px;
+    width: 200px;
+    height: 30px;
 
 }
 
@@ -63,7 +62,7 @@ button:active{
 
 input{
     transition-duration:0.2s;
-    margin-top:20px;
+    margin-top:10px;
 
     font-size: large;
     text-align: center;
@@ -73,7 +72,7 @@ input{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    width: 300px;
+    width: 200px;
     height: 30px;
 
 }
