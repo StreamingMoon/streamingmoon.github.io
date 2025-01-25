@@ -1,7 +1,3 @@
-@font-face {
-    font-family: "Monocraft Nerd Font";
-    src: url(C:/Windows/Fonts/Monocraft-nerd-fonts-patched.ttf);
-}
 
 #Avatar{
     border-radius: 50%;
@@ -11,14 +7,14 @@
 }
 
 body{
-    font-family: "Monocraft Nerd Font";
+
     color:#c9d1d9;
 }
 
 button{
     transition-duration:0.2s;
     margin-top:20px;
-    font-family: "Monocraft Nerd Font";
+
     font-size: large;
     text-align: center;
     background: #21262d;
@@ -35,7 +31,7 @@ button{
 button:hover{
     transition-duration:0.2s;
     margin-top:20px;
-    font-family: "Monocraft Nerd Font";
+
     font-size: large;
     text-align: center;
     background: #30363d;
@@ -51,7 +47,7 @@ button:hover{
 button:active{
     transition-duration:0.2s;
     margin-top:20px;
-    font-family: "Monocraft Nerd Font";
+
     font-size: large;
     text-align: center;
     background: #282e33;
@@ -68,7 +64,7 @@ button:active{
 input{
     transition-duration:0.2s;
     margin-top:20px;
-    font-family: "Monocraft Nerd Font";
+
     font-size: large;
     text-align: center;
     background: #10151c;
@@ -85,7 +81,7 @@ input{
 input:hover{
     transition-duration:0.2s;
     margin-top:20px;
-    font-family: "Monocraft Nerd Font";
+
     font-size: large;
     text-align: center;
     background: #20252c;
@@ -101,7 +97,7 @@ input:hover{
 input:active{
     transition-duration:0.2s;
     margin-top:20px;
-    font-family: "Monocraft Nerd Font";
+
     font-size: large;
     text-align: center;
     background: #171d22;
