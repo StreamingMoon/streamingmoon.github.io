@@ -3,8 +3,27 @@
     border-radius: 100%;
     width : 250px;
     height: 250px;
-    /* text-align: center; */
+    border: 0px;
 }
+
+#Name{
+    transition-duration:0.2s;
+    margin-top:5px;
+    margin-bottom:5px;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+    background: #010409;
+    color:#c7cfd7;
+    border-color: #010409;
+    border-width: 0px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    outline: 0px;
+}
+
 
 body{
     color:#c9d1d9;
@@ -12,8 +31,8 @@ body{
 
 button{
     transition-duration:0.2s;
-    margin-top:10px;
-
+    margin-top:5px;
+    margin-bottom: 5px;
     font-size: large;
     text-align: center;
     background: #21262d;
@@ -22,16 +41,17 @@ button{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
     height: 30px;
 
 }
 
 button:hover{
     transition-duration:0.2s;
-    margin-top:20px;
+    margin-top:10px;
+    margin-bottom:10px;
 
-    font-size: large;
+    font-size: x-large;
     text-align: center;
     background: #30363d;
     color:#c4d1d9;
@@ -45,9 +65,10 @@ button:hover{
 
 button:active{
     transition-duration:0.2s;
-    margin-top:20px;
+    margin-top:10px;
+    margin-bottom:10px;
 
-    font-size: large;
+    font-size: xx-large;
     text-align: center;
     background: #282e33;
     color:#c9d1d9;
@@ -62,8 +83,8 @@ button:active{
 
 input{
     transition-duration:0.2s;
-    margin-top:10px;
-
+    margin-top:5px;
+    margin-bottom:5px;
     font-size: large;
     text-align: center;
     background: #10151c;
@@ -72,16 +93,17 @@ input{
     border-width: 1px;
     border-style: solid;
     border-radius: 10px;
-    width: 200px;
+    width: 250px;
     height: 30px;
 
 }
 
 input:hover{
     transition-duration:0.2s;
-    margin-top:20px;
+    margin-top:10px;
+    margin-bottom:10px;
 
-    font-size: large;
+    font-size: x-large;
     text-align: center;
     background: #20252c;
     color:#c4d1d9;
@@ -95,9 +117,10 @@ input:hover{
 
 input:active{
     transition-duration:0.2s;
-    margin-top:20px;
+    margin-top:10px;
+    margin-bottom:10px;
 
-    font-size: large;
+    font-size: xx-large;
     text-align: center;
     background: #171d22;
     color:#c9d1d9;

@@ -14,10 +14,10 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -50%);">
         <div align="center">
-            <img id="Avatar" src="./NikoAvatar.jpg" />
+            <img id="Avatar" src="./NikoAvatar.jpg" onclick="EnableTypeIn()"/>
         </div>
         <div align="center">
-            <h1 id="Name">StreamingMoon</h1>
+            <input id="Name" value="StreamingMoon" readonly="true"/>
         </div>
         <div align="center">
             <button onclick="MyPage()">My Homepage</button>
@@ -27,9 +27,6 @@ transform: translate(-50%, -50%);">
         </div>
         <div align="center">
             <button onclick="Detail()">About Me</button>
-        </div>
-        <div align="center">
-            <button onclick="SYC()">Encode/Decode</button>
         </div>
 </body>
 <script type="text/javascript" src="./index.js"></script>
