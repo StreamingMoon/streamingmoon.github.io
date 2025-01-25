@@ -5,11 +5,11 @@ function codePointsToString(codePoints) {
     return String.fromCodePoint(...codePoints);
 }
 function calculateKey(code,i) {
-    return Math.floor(i*Array.from(code).length)%10000;
+    return Math.floor(i*Array.from(code).length*(i-1))%10000;
 }
 function encode(code) {
     const codePoints = stringToCodePoints(code);
-    const codePoints_encoded = [...codePoints];
+    codePoints_encoded = [...codePoints];
     for(let i = 0; i < codePoints.length; i++)
     {
         if(i>0)
@@ -28,7 +28,7 @@ function encode(code) {
 }
 function decode(code) {
     const codePoints = stringToCodePoints(code);
-    const codePoints_decoded = [...codePoints];
+    codePoints_decoded = [...codePoints];
     for(let i = 0; i <codePoints.length; i++)
     {
         if(i>0)
